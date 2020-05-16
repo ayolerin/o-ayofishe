@@ -69,8 +69,8 @@ if(isset($_POST['login'])){
     if($row["email"] == $email && $row['password'] == $password){
         $_SESSION['email'] = $email;
         header("Location: home.php");
-//     }else{
-//         header("Location: incorrect.php");
+ }else{
+       header("Location: incorrect.php");
     }
     
     
