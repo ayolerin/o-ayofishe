@@ -1,8 +1,13 @@
 <?php
 
-$server_name = 'localhost';
-$db_username = "root";
-$db_password = "";
+// $server_name = 'localhost';
+// $db_username = "root";
+// $db_password = "";
+// $db_name = "restuarant";
+
+$server_name = 'us-cdbr-east-06.cleardb.net';
+$db_username = "be61195fd61bdc";
+$db_password = "8633d172";
 $db_name = "restuarant";
 
 $connection = mysqli_connect($server_name, $db_username, $db_password, $db_name);
