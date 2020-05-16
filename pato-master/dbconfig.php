@@ -5,10 +5,10 @@
 // $db_password = "";
 // $db_name = "restuarant";
 
-$server_name = 'us-cdbr-east-06.cleardb.net';
-$db_username = "be61195fd61bdc";
-$db_password = "8633d172";
-$db_name = "restuarant";
+$server_name = 'sql9.freemysqlhosting.net';
+$db_username = "sql9341135";
+$db_password = "T3F21fG1Vu";
+$db_name = "sql9341135";
 
 $connection = mysqli_connect($server_name, $db_username, $db_password, $db_name);
 
