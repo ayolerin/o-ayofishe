@@ -2,7 +2,8 @@
 include('security.php');
 // session_start();
 
-$conn = mysqli_connect("localhost", "root", "", "restuarant");
+// $conn = mysqli_connect("localhost", "root", "", "restuarant");
+$conn = mysqli_connect("sql9.freemysqlhosting.net", "sql9341135", "T3F21fG1Vu", "sql9341135");
 if(isset($_POST['signup'])){
     $username = $_POST['username'];
     $email = $_POST['email'];
