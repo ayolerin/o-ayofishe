@@ -26,7 +26,7 @@ include("dbconfig.php");
 	</section>
 
 	<?php
-	        $connection = mysqli_connect("localhost", "root", "", "restuarant");
+	        $connection = mysqli_connect("sql9.freemysqlhosting.net", "sql9341135", "T3F21fG1Vu", "sql9341135");
 					$query = "SELECT * FROM reserved ORDER BY id DESC LIMIT 1"; 
 					$mysqli_result = mysqli_query($connection, $query);
 					?>
